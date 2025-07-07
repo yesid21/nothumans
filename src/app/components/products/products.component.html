@@ -1,0 +1,45 @@
+<!-- <app-banner></app-banner>
+<div class="p-8 bg-black grid grid-cols-1 md:grid-cols-3 gap-4">
+  <div class="border border-gray-700 p-4 text-white rounded-xl" *ngFor="let product of products">
+    <img [src]="product.image" alt="{{ product.name }}" class="w-full h-60 object-contain mb-4 rounded-lg">
+    <h2 class="text-xl">{{ product.name }}</h2> <h4 class="text-xs">{{ product.price }}</h4>
+  </div>
+</div> -->
+
+<section class="min-h-screen bg-black text-white px-4 py-8">
+  <app-banner [title]="'Nuestros Productos'"></app-banner>
+
+  <!-- Subcategorías Tabs -->
+  <div class="flex flex-wrap justify-center gap-4 mb-8">
+    <button class="px-4 py-2 rounded-full border border-green hover:bg-white hover:text-black transition"
+      [class.bg-white]="selectedCategory === 'cocteles'" [class.text-black]="selectedCategory === 'cocteles'"
+      (click)="selectCategory('cocteles')">
+      Cócteles
+    </button>
+    <button class="px-4 py-2 rounded-full border border-white hover:bg-white hover:text-black transition"
+      [class.bg-white]="selectedCategory === 'licores'" [class.text-black]="selectedCategory === 'licores'"
+      (click)="selectCategory('licores')">
+      Licores
+    </button>
+    <button class="px-4 py-2 rounded-full border border-white hover:bg-white hover:text-black transition"
+      [class.bg-white]="selectedCategory === 'cervezas'" [class.text-black]="selectedCategory === 'cervezas'"
+      (click)="selectCategory('cervezas')">
+      Cervezas
+    </button>
+    <button class="px-4 py-2 rounded-full border border-white hover:bg-white hover:text-black transition"
+      [class.bg-white]="selectedCategory === 'otros'" [class.text-black]="selectedCategory === 'otros'"
+      (click)="selectCategory('otros')">
+      Otros
+    </button>
+  </div>
+
+  <!-- Productos filtrados -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div *ngFor="let product of filteredProducts" class="bg-black border border-gray-700 rounded-lg p-4 text-center">
+      <img [src]="product.image" alt="{{ product.name }}" class="w-full h-60 object-contain rounded mb-4">
+      <h2 class="text-xl font-semibold mb-2">{{ product.name }}</h2>
+      <p class="text-lg font-bold text-green-500">COP ${{ product.price | number }}
+      </p>
+    </div>
+  </div>
+</section>
