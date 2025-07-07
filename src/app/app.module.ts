@@ -8,7 +8,6 @@ import { HeroComponent } from './pages/hero/hero.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { ClasesComponent } from './pages/clases/clases.component';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { ClasesComponent } from './pages/clases/clases.component';
     ProductsComponent,
     FooterComponent,
     HomeComponent,
-    BannerComponent,
     ClasesComponent
   ],
   imports: [
