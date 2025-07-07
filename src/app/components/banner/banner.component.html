@@ -1,5 +1,13 @@
-<div class="flex flex-wrap items-center justify-center px-4 md:px-8 pb-4 bg-black text-white">
-  <img src="assets/logo.png" alt="Logo Left" class="h-20 md:h-32 w-auto flex-shrink-0">
-  <h1 class="text-lg md:text-5xl font-bold font-custom text-center mx-4 whitespace-nowrap">{{title}}</h1>
-  <img src="assets/logo.png" alt="Logo Right" class="h-20 md:h-32 w-auto">
+<div
+  class="flex flex-nowrap items-center justify-center gap-x-4 md:gap-x-8 px-4 md:px-8 pb-4 bg-black text-white w-full overflow-hidden">
+  <img src="assets/logo.png" alt="Logo Left" class="h-10 md:h-24 w-auto flex-shrink-0">
+
+  <div class="min-w-0 mx-2">
+    <h1
+      class="text-xs sm:text-xl md:text-4xl font-bold font-custom text-center whitespace-nowrap overflow-hidden text-ellipsis">
+      {{ title }}
+    </h1>
+  </div>
+
+  <img src="assets/logo.png" alt="Logo Right" class="h-10 md:h-24 w-auto flex-shrink-0">
 </div>
