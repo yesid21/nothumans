@@ -12,6 +12,8 @@ import { ClasesComponent } from './pages/clases/clases.component';
 import { ReservasComponent } from './pages/reservas/reservas.component';
 import { AcercaComponent } from './pages/acerca/acerca.component';
 import { EventosComponent } from './pages/eventos/eventos.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { EventosComponent } from './pages/eventos/eventos.component';
     ClasesComponent,
     ReservasComponent,
     AcercaComponent,
-    EventosComponent
+    EventosComponent,
+    WhatsappComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
