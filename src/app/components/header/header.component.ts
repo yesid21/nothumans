@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   isMenuOpen = false;
+
+  closeMenu() {
+    this.isMenuOpen = false;
+  }
 }
