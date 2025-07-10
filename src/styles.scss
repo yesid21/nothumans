@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+font-family: "Abril Fatface", sans-serif !important;
+}
+
 body {
   @apply bg-white text-black;
   background-color: black;

@@ -1,18 +1,24 @@
-<section class="relative flex items-center justify-center min-h-screen bg-black text-white overflow-hidden">
-  <!-- Fondo de estrellas -->
-  <div class="absolute inset-0 bg-[url('/assets/stars.png')] bg-repeat opacity-30"></div>
+<section class="relative flex justify-center min-h-screen bg-black text-white overflow-hidden">
+  <!-- Video de fondo -->
+  <video [autoplay]="true" [muted]="true" [loop]="true" playsinline class="absolute inset-0 w-full h-full object-cover">
+    <source src="https://video.wixstatic.com/video/0f1624_f617300cbadc4f9f870c5bf271e2d61a/720p/mp4/file.mp4"
+      type="video/mp4" />
+    Tu navegador no soporta videos HTML5.
+  </video>
 
-  <!-- Humo o overlay oscuro -->
-  <div class="absolute inset-0 bg-black/70"></div>
+  <!-- Fondo de estrellas -->
+  <div class="absolute inset-0 bg-[url('/assets/stars.png')] bg-repeat opacity-20"></div>
+
+  <!-- Overlay oscuro más tenue -->
+  <div class="absolute inset-0 bg-black/80"></div>
 
   <!-- Contenido principal -->
-  <div class="relative z-10 text-center px-4 bottom-32 md:bottom-20">
-    <h1 class="text-4xl md:text-7xl font-extrabold mb-4 neon-text">NOT HUMANS</h1>
-    <p class="text-lg md:text-2xl mb-8">Bienvenido a la experiencia underground que rompe el sistema.</p>
-    <a href="#/productos"
+  <div class="relative z-10 justify-items-center justify-center px-4 bottom-32 md:bottom-20 top-4 md:top-8">
+    <h1 class="text-4xl md:text-4xl font-extrabold mb-12 neon-text">NOT HUMANS</h1>
+    <img src="assets/alien-realista.png" alt="Cóctel" class="w-72 md:w-72 opacity-80 mb-16 md:mb-8" />
+    <a href="#/acerca"
       class="inline-block bg-green-600 hover:bg-green-800 text-white px-6 py-3 rounded-full uppercase tracking-wider transition">
-      Ver Cócteles
+      Acerca
     </a>
   </div>
-  <img src="assets/logo.png" alt="Cóctel" class="absolute bottom-32 md:bottom-20 right-4 w-40 md:w-72 opacity-80" />
 </section>
