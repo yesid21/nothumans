@@ -2,4 +2,33 @@
   <div class="items-center justify-center">
     <h1 class="text-2xl font-bold text-white mb-8 text-center">EVENTOS</h1>
   </div>
+  <div class="flex flex-wrap justify-center gap-4 mb-8">
+    <!-- Texto descriptivo -->
+    <div class="max-w-3xl text-center text-base md:text-lg leading-relaxed space-y-6 mb-12">
+      <p>
+        ¡Vive la música que amas en Not Humans! Organizamos eventos especiales para todos los géneros, con invitados
+        exclusivos, donde podrás bailar, cantar y disfrutar con amigos, familia, pareja y demás.
+      </p>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-2xl">
+      <!-- Video vertical -->
+      <video class="w-full md:w-1/2 rounded-lg" [controls]="false" autoplay loop playsinline>
+        <source src="assets/videoevento.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+      </video>
+
+      <!-- Imagen del mapa -->
+      <img src="assets/mapa.jpeg" alt="Ubicación Not Humans" class="w-full md:w-1/2 rounded-lg object-cover" />
+    </div>
+      <p>
+        Recuerda: en Not Humans los diversos gustos y formas de expresión son una inspiración para nosotros y una
+        oportunidad para cultivar la importancia de la diversidad.
+      </p>
+      <p>
+        <strong>¡Reserva ya y no te pierdas la diversión!</strong>
+      </p>
+    </div>
+
+    <!-- Contenedor multimedia -->
+
+  </div>
 </section>
