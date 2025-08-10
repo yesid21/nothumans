@@ -18,7 +18,7 @@ export class ProductsComponent {
   products: Product[] = [
     { name: 'Eclipse', category: 'cocteles', image: 'assets/producto1.png', price: 29900 },
     { name: 'Nebulosa', category: 'cocteles', image: 'assets/producto2.png', price: 36900 },
-    { name: 'Not Humans', category: 'cocteles', image: 'assets/producto3.jpeg', price: 45900 },
+    { name: 'Not Humans', category: 'cocteles', image: 'assets/producto3.png', price: 45900 },
     { name: 'Marte', category: 'cocteles', image: 'assets/producto4.png', price: 29900 },
     { name: 'Elixir Alien', category: 'cocteles', image: 'assets/producto5.png', price: 30000 },
 
