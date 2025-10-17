@@ -18,15 +18,15 @@ export class ProductsComponent {
   products: Product[] = [
     { name: 'Eclipse', category: 'cocteles', image: 'assets/producto1.png', price: 29900 },
     { name: 'Nebulosa', category: 'cocteles', image: 'assets/producto2.png', price: 36900 },
-    { name: 'Not Humans', category: 'cocteles', image: 'assets/producto3.png', price: 45900 },
-    { name: 'Marte', category: 'cocteles', image: 'assets/producto4.png', price: 29900 },
-    { name: 'Elixir Alien', category: 'cocteles', image: 'assets/producto5.png', price: 30000 },
+    { name: 'Not Humans', category: 'cocteles', image: 'assets/producto3.png', price: 44900 },
+    { name: 'Marte', category: 'cocteles', image: 'assets/producto4.png', price: 53000 },
+    { name: 'Elixir Alien', category: 'cocteles', image: 'assets/producto5.png', price: 35900 },
 
     { name: 'Aguardiente Antioqueño, Garrafa Azul', category: 'licores', image: 'assets/TAPAAZUL2000.png', price: 290000 },
     { name: 'Aguardiente Antioqueño, Litro Azul', category: 'licores', image: 'assets/TAPAAZUL1000.png', price: 150000 },
     { name: 'Aguardiente Antioqueño, Media Azul', category: 'licores', image: 'assets/TAPAAZUL375.png', price: 66900 },
     { name: 'Aguardiente Antioqueño, Garrafa Rojo', category: 'licores', image: 'assets/TAPAROJA2000.png', price: 280000 },
-    { name: 'Aguardiente Antioqueño, Litro Rojo', category: 'licores', image: 'assets/TAPAROJA1000.png', price: 150000 },
+    { name: 'Aguardiente Antioqueño, Litro Rojo', category: 'licores', image: 'assets/TAPAROJA1000.png', price: 150900 },
     { name: 'Aguardiente Antioqueño, Media Rojo', category: 'licores', image: 'assets/TAPAROJA375.png', price: 62000 },
     { name: 'Aguardiente Antioqueño, Garrafa Verde', category: 'licores', image: 'assets/TAPAVERDE2000.png', price: 230000 },
     { name: 'Aguardiente Antioqueño, Litro Verde', category: 'licores', image: 'assets/TAPAVERDE1000.png', price: 150000 },
@@ -35,7 +35,7 @@ export class ProductsComponent {
     { name: `Tequila Don Julio Añejo`, category: 'licores', image: 'assets/DONJULIOA.png', price: 810000 },
     { name: `Tequila Jose Cuervo`, category: 'licores', image: 'assets/JOSECUERVO.png', price: 130000 },
     { name: `Ron Viejo De Caldas`, category: 'licores', image: 'assets/VIEJODECALDAS.png', price: 110000 },
-    { name: `Ron Medellin Litro 5 Años`, category: 'licores', image: 'assets/MEDELLIN5.png', price: 149000 },
+    { name: `Ron Medellin Litro 5 Años`, category: 'licores', image: 'assets/MEDELLIN5.png', price: 149900 },
     { name: `Ron Medellin Litro 8 Años`, category: 'licores', image: 'assets/MEDELLIN8.png', price: 180000 },
     { name: `Ron Medellin Litro 3 Años`, category: 'licores', image: 'assets/MEDELLIN3.png', price: 120000 },
 
